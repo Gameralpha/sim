@@ -77,7 +77,7 @@ AUTO_LEAVING_ASSISTANTT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "300")
+    getenv("ASSISTANT_LEAVE_TIME", "5")
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
